@@ -1,0 +1,50 @@
+.button {
+  background-color: black;
+  color: #fff;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(180deg, #d7ffdd 0%, #56efb7 100%);
+}
+#root {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.progress-bar {
+  margin-bottom: 20vh;
+  height: 20px;
+  background-color: #e6e6e6;
+  border-radius: 50px;
+}
+
+.progress {
+  height: 20px;
+  background-color: #00ff66;
+  border-radius: 50px;
+}
+
+.title {
+  margin-bottom: 50px;
+  border-radius: 5px;
+  border: 2px solid green;
+  font-size: 36px;
+  padding: 15px;
+  color: green;
+  font-weight: bold;
+}
